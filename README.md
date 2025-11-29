@@ -28,6 +28,12 @@ A collection of Tcl/Expect scripts for automating network device management, inc
     sqlite3 net.db "INSERT INTO cred (username, password, enable) VALUES ('myuser', 'mypass', 'myenable');"
     ```
 
+4.  **Create dirs:**
+    Prepare the directories for storing configs and stats.
+    ```bash
+    mkdir configs stats
+    ```
+
 ## Usage
 
 ### 1. Device Discovery & Database Population (`fp.tcl`)
